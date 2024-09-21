@@ -43,7 +43,7 @@ geometry_msgs::Vector3 crossProduct(const geometry_msgs::Vector3 v1, geometry_ms
 bool gazebo_link_name_matched = false;
 bool dea_enabled;
 bool param_tuning_enabled = false;
-bool force_saturation_enabled = false;
+bool force_saturation_enabled = true;
 int uav0_link_index;
 int uav1_link_index;
 int pend0_link_index;
